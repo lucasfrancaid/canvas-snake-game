@@ -1,0 +1,82 @@
+* {
+		font-family: 'Roboto', sans-serif;
+}
+
+body {
+		position: absolute;
+		width: 400px;
+		height: 600px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+}
+
+img {
+		max-width: 100px;
+}
+
+.menu-screen {
+		color: white;
+		font-size: 60px;
+		font-weight: 500;
+		text-align: center;
+		z-index: 10;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+}
+
+.menu-screen button {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 22px;
+		background-color: yellowgreen;
+}
+
+#startGame {
+		margin-bottom: -64%;
+}
+
+#gameOver {
+		display: none;
+		margin-bottom: -64%;
+}
+
+.snake-screen {
+		min-width: 400px;
+		min-height: 400px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+}
+
+#snakeScreen {
+		width: 400px;
+		height: 400px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+}
+
+.snake-score {
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin-top: 60%;
+}
+
+.snake-score h2 {
+		margin: 0;
+}
+
+.snake-score #score {
+		text-align: right;
+		font-size: 30px;
+		margin: -4px 0 40px 5px;
+}

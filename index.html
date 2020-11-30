@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="img/snake.ico">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Snake Game</title>
+	</head>
+	<body>
+		<div class="menu-screen">
+			<div id="startGame">
+				<img src="img/snake.ico" alt="Snake Game"> <br>
+				Snake Game <br>
+				<button type="button" onclick="startGame()">Start</button>
+			</div>
+	
+			<div id="gameOver">
+				<img src="img/snake.ico" alt="Snake Game"> <br>
+				Game Over <br>
+				<button type="button" onclick="startGame()">Restart</button>
+			</div>
+		</div>
+
+		<div class="snake-screen">
+			<canvas id="snakeScreen" width="400" height="400"></canvas>
+		</div>
+
+		<div class="snake-score">
+			<h2>Score:</h2>
+			<b id="score">0</b>
+		</div>
+
+		<script src="js/index.js"></script>
+
+	</body>
+</html>
