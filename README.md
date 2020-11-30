@@ -5,7 +5,7 @@
     <h1 align="center">Canvas Snake Game</h1>
     <p align="center">
       O jogo da cobrinha criado com canvas do html, javascript e css.<br/>
-      <a href="https://todovuejs-lucasfranca.herokuapp.com/"><strong>https://canvas-snakegame.herokuapp.com/</strong></a>
+      <a href="https://canvas-snakegame.herokuapp.com/"><strong>https://canvas-snakegame.herokuapp.com/</strong></a>
     </p>
     <p align="center">
       <img src="img/snake.ico" alt="snake-game" />
